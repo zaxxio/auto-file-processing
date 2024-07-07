@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b4111ea-8a79-4a39-aed8-82467e47684a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/auto-file-processing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logging.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0010+0000-0015+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0015+0000-0020+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0020+0000-0025+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0025+0000-0030+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0033+0000-0035+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0035+0000-0040+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0040+0000-0045+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0045+0000-0050+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0050+0000-0055+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0055+0000-0100+0000_8C1F64.240B88008E2C.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/ftp/nybsys/A20240301.0055+0000-0100+0000_8C1F64.240B88008E2CC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threaded/file_downloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threaded/file_monitor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zaxxio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zaxxio/auto-file-processing.git&quot;,
+    &quot;accountId&quot;: &quot;e389e891-53ff-43ed-b637-22a1039f177c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -57,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.PythonRunner.executor": "Debug",
-    "Python.main.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/partha/PycharmProjects/auto-file-processing/shared/ftp/nybsys",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.PythonRunner.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/partha/PycharmProjects/auto-file-processing/shared/ftp/nybsys&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/shared/ftp/nybsys" />
@@ -183,6 +170,8 @@
       <updated>1720340646471</updated>
       <workItem from="1720340647536" duration="786000" />
       <workItem from="1720341439344" duration="7949000" />
+      <workItem from="1720352151685" duration="25000" />
+      <workItem from="1720352220172" duration="74000" />
     </task>
     <servers />
   </component>
