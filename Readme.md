@@ -5,6 +5,7 @@
 4. Logging (FileSystem)
 5. Threaded Task (FileDownload) (FileMonitor)
 6. Xml Parser to Dictionary
+7. Exception Handling.
 ```shell
 docker-compose up --build --force-recreate -d
 docker-compose logs
