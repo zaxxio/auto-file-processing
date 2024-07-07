@@ -1,0 +1,37 @@
+version: '3'
+services:
+  ftp-base-station:
+    image: fauria/vsftpd
+    container_name: ftp-server
+    environment:
+      FTP_USER: nybsys
+      FTP_PASS: 12345
+    ports:
+      - "20:20"
+      - "21:21"
+      - "21100-21110:21100-21110"
+    volumes:
+      - ./shared/ftp:/home/vsftpd
+    networks:
+      - cloudNetwork
+
+  automated-file-processing:
+    build: .
+    container_name: automated-file-processing
+    environment:
+      FTP_HOST: host.docker.internal
+      FTP_USER: "nybsys"
+      FTP_PASS: "12345"
+      TEMP_FOLDER: "/app/temp"
+      LOCAL_FOLDER: "/app/local"
+      TRASH_FOLDER: "/app/trash"
+    volumes:
+      - ./temp:/app/temp
+      - ./local:/app/local
+    restart: always
+    networks:
+      - cloudNetwork
+
+networks:
+  cloudNetwork:
+    driver: bridge
