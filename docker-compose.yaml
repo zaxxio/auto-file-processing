@@ -20,6 +20,8 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: automated-file-processing
+    depends_on:
+      - ftp-base-station
     environment:
       FTP_HOST: host.docker.internal
       FTP_USER: "nybsys"

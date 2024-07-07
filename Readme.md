@@ -12,8 +12,8 @@ docker-compose logs
 ```
 
 # Containerization
-```dockerfile
-version: '3.8'
+```yaml
+version: '3'
 services:
   ftp-base-station:
     image: fauria/vsftpd
@@ -31,10 +31,12 @@ services:
       - cloudNetwork
 
   automated-file-processing:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile
     container_name: automated-file-processing
+    depends_on:
+      - ftp-base-station
     environment:
       FTP_HOST: host.docker.internal
       FTP_USER: "nybsys"
