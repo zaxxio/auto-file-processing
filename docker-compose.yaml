@@ -16,7 +16,9 @@ services:
       - cloudNetwork
 
   automated-file-processing:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: automated-file-processing
     environment:
       FTP_HOST: host.docker.internal
